@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home.html</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f5f5dc; /* Beige background */
+            color: #4e4b46; /* Dark brown text color */
+            line-height: 1.25; /* Compact line height */
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-color: #3e2723; /* Dark brown */
+            color: white;
+            text-align: center;
+            padding: 25px 0; /* Reduced padding */
+        }
+
+        header h1 {
+            font-size: 2.2em; /* Slightly smaller font size */
+            margin-bottom: 8px; /* Reduced margin */
+        }
+
+        header h2 {
+            font-size: 1.2em; /* Reduced font size */
+            font-style: italic;
+            color: #cfc0b8; /* Light beige/cream */
+        }
+
+        /* Profile Section */
+        .profile {
+            margin: 20px 12px; /* Increased margin for profile */
+            background: #fff; /* White background for profile */
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px; /* Increased padding */
+        }
+
+        .profile-text {
+            position: relative;
+            max-width: 900px; /* Slightly increased width */
+        }
+
+        .profile-text p {
+            font-size: 0.9em; /* Reduced font size */
+            text-align: justify;
+            margin-bottom: 10px; /* Reduced margin */
+            color: #4e4b46; /* Dark brown text */
+        }
+
+        /* Image Styles for First Paragraph */
+        .profile-img {
+            border-radius: 50%;
+            width: 150px; /* Increased width */
+            height: 150px; /* Increased height */
+            object-fit: cover;
+            margin-right: 20px; /* Adjusted margin for space */
+            float: left;
+            margin-top: 5px;
+            margin-bottom: 8px; /* Reduced margin */
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #d53d3d; /* Highlight color */
+        }
+
+        .important {
+            font-weight: bold;
+            color: #8d6e63; /* Light brown for emphasis */
+        }
+
+        .emphasized {
+            font-style: italic;
+            color: #6d4c41; /* Brownish red */
+        }
+
+        /* Skills Section */
+        .skills-section {
+            margin: 10px 12px; /* Reduced margin */
+            text-align: center;
+        }
+
+        .skills-section h3 {
+            font-size: 1.6em; /* Reduced font size */
+            margin-bottom: 18px; /* Reduced margin */
+            color: #3e2723; /* Dark brown */
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px; /* Reduced gap */
+        }
+
+        .skill-card {
+            background-color: #fff; /* White background */
+            border-radius: 10px;
+            padding: 12px; /* Reduced padding */
+            width: 150px; /* Reduced width */
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px); /* Slight hover effect */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .skill-card h4 {
+            font-size: 1.1em; /* Reduced font size */
+            color: #3e2723; /* Dark brown */
+            margin-bottom: 8px; /* Reduced margin */
+        }
+
+        .skill-card p {
+            font-size: 0.9em; /* Reduced font size */
+            color: #4e4b46; /* Dark brown text */
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background-color: #3e2723; /* Dark brown background */
+            color: white;
+            padding: 15px; /* Decreased padding */
+            text-align: center;
+            border-radius: 15px;
+            margin: 10px 12px; /* Reduced margin */
+        }
+
+        .contact-section a {
+            color: #cfc0b8; /* Light beige */
+            text-decoration: none;
+            font-weight: bold;
+            margin: 8px;
+            display: inline-block;
+            font-size: 1.0em; /* Reduced font size */
+        }
+
+        .contact-section a:hover {
+            color: #ff6347; /* Light brown hover effect */
+        }
+
+        /* Footer */
+        footer {
+            background-color: #3e2723; /* Dark brown background */
+            color: white;
+            text-align: center;
+            padding: 8px; /* Reduced padding */
+            margin-top: 15px; /* Reduced margin-top */
+            border-top: 4px solid #ff6347; /* Light brown border on top */
+        }
+
+        footer p {
+            font-size: 0.95em; /* Reduced font size */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Shalvi Atul Surve</h1>
+        <h2>Coding the world, one word at a time</h2>
+    </header>
+
+    <!-- Profile Section -->
+    <section class="profile">
+        <div class="profile-text">
+            <p>
+                <img src="profile_pic.jpeg" alt="Shalvi Atul Surve" class="profile-img">
+                I’m <span class="highlight">Shalvi Atul Surve</span>, a student at VIT Vellore. I’m pursuing a B.Tech degree in the
+                programme <span class="highlight">Computer Science and Engineering</span>. I’m currently in my 4th semester. I
+                hail from Mumbai, Maharashtra. My father works as the Vice President at Mantra Softech, while my mother is
+                self-employed in her small venture – GBSL.
+            </p>
+
+            <p>
+                I have several hobbies like reading, journaling, listening to music, watching dramas, playing cricket, etc. I also
+                enjoy learning new languages. I’m proficient and fluent in <span class="emphasized">English, Hindi, and Marathi</span>.
+                I also hold moderate fluency in French and have learnt languages like Russian, Japanese, and Korean for fun.
+            </p>
+
+            <p>
+                In my time at VIT, I have honed my skills in several programming languages such as <span class="important">Python, C, C++, and Java</span>.
+                I have participated in several GraVITas events and hackathons, the most notable one being the Smart India Hackathon
+                2024. These experiences have been key in helping me network with amazing individuals having expertise in their
+                respective domains. It was here that I gained knowledge about several tools like GitHub, Visual Studio Code, Figma,
+                and HTML.
+            </p>
+
+            <p>
+                I’m currently exploring my interest in Cybersecurity, for which I had attended an online workshop and I also purchased
+                the course. I wish to contribute to the security of our nation as I believe that in future, wars won’t be fought just
+                on land but also with computers, which would demand safety of the national database. I’m also exploring my interest
+                in Web and App Development as they are the trend in the corporate world.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+        <h3>Key Skills</h3>
+        <div class="skills-list">
+            <div class="skill-card">
+                <h4>Programming Languages</h4>
+                <p>Python, C, C++, Java</p>
+            </div>
+            <div class="skill-card">
+                <h4>Web Development</h4>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-card">
+                <h4>Cybersecurity</h4>
+                <p>Network Security, Ethical Hacking</p>
+            </div>
+            <div class="skill-card">
+                <h4>Tools</h4>
+                <p>GitHub, Visual Studio Code, Figma</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h3>Contact Me</h3>
+        <p>You can reach me via email at <a href="mailto:shalviatul.surve2023@vitstudent.ac.in"> shalviatul.surve2023@vitstudent.ac.in </a>.</p>
+        <p>Follow me on my <a href="https://github.com/shalvi" target="_blank">GitHub</a> for my projects.</p>
+        <a href="https://www.linkedin.com/in/shalvi-atul-surve/" class="button" target="_blank">Connect on LinkedIn</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Shalvi Atul Surve. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
